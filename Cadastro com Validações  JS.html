@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)file:///C:/Users/867377/Documents/ATIV_UC12/Javascript/cadastro.html -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro com Validações em JS</title>
+</head>
+<body>
+    <div id="main-container">
+        <h1>Cadastre-se para acessar o sistema</h1>
+        <form id="regiter-form" action="file:///C:/Users/867377/Documents/ATIV_UC12/Javascript/cadastro.html">
+            <div class="full-box">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                placeholder="Digite seu email" data-min-lenght="2" data-email-validate&gt;
+
+            </div>
+            <div class="half-box">
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" data-required="" data-min-lenght="16">
+            </div>
+            <div class="half-box">
+                <label for="lastname">Sobrenome</label>
+                <input type="text" name="lastname" id="lastname" aria-placeholder="Digite seu sobrenome" data-required="" data-only-letters="">
+            </div>
+            <div class="half-box spacing">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha" data-password-validate="" data-required="">
+            </div>
+            <div class="half-box">
+                <label for="passconfirmation">Confirmação de senha</label>
+                <input type="password" name="passconfirmation" id="passconfirmation" placeholder="Digite novamente sua senha" data-equal="password">
+            </div>
+            <di>
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement" id="agreement-label">Eu li e aceito os <a href="file:///C:/Users/867377/Documents/ATIV_UC12/Javascript/cadastro.html#">termos de uso</a></label>
+            </di></form></div>
+            <div class="full-box">
+                <input type="submit" id="btn-submit" value="Registrar">
+            </div>
+        
+    
+    <p class="error-validation template"></p>
+
+</body></html>
